@@ -38,6 +38,7 @@ PKU, CUHK, StepFun, PolyU, MSRA.
 ## 🏆 Leaderboard
 
 ![Leaderboard](./assets/leaderboard.png)
+
 ---
 
 ## 🚀 Quick Start
@@ -55,6 +56,14 @@ Clone the repository and prepare your local environment:
 ```bash
 git clone https://github.com/arctanxarc/GENIUS.git
 cd GENIUS
+```
+
+```bash
+conda create -n GENIUS python==3.10
+
+conda activate GENIUS
+
+pip install -r requirements.txt
 ```
 
 After downloading the dataset, ensure your directory structure matches the following:
