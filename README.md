@@ -64,7 +64,6 @@ cd GENIUS
 ```bash
 conda create -n GENIUS python==3.10
 conda activate GENIUS
-pip install -r requirements.txt
 ```
 
 After downloading the dataset, ensure your directory structure matches the following:
