@@ -30,12 +30,15 @@ PKU, CUHK, StepFun, PolyU, MSRA.
 ---
 
 ## 🕙 Timeline
+- [x] **2026.05.09**: Update the leaderboard, some details about GENIUS and README.md.
 - [x] **2026.02.11**: 🌟 Release of the evaluation code and the core test dataset.
 - [ ] **TBD**: Integration of more model inference scripts.
 
 ---
 
 ## 🏆 Leaderboard
+
+We conduct a comprehensive evaluation of 14 representative open-source, proprietary and newly proposed agentic generation models. The open-source model comprises Qwen-Image-Edit-2511, GLM-Image, FLUX.2-dev, NextStep-1, Emu3.5-Image and Bagel. The proprietary category includes leading commercial models: Nano Banana and its Pro variant, SeeDream series (4.0 \& 4.5) and GPT-Image. The agentic generation models includes Mind-Brush and Gen-Searcher. Both of them use Qwen-Image as the backbone.
 
 ![Leaderboard](./assets/leaderboard.png)
 
@@ -60,9 +63,7 @@ cd GENIUS
 
 ```bash
 conda create -n GENIUS python==3.10
-
 conda activate GENIUS
-
 pip install -r requirements.txt
 ```
 
